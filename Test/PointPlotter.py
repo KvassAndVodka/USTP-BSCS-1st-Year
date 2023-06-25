@@ -6,7 +6,7 @@ import turtle
 #Enter the first point with two float values
 x1,y1 = eval(input("Enter x1 and y1 for Point 1:"))
 
-#Enter ehe second point with two float values
+#Enter the second point with two float values
 x2,y2 = eval(input("Enter x2 and y2 for Point 2:"))
 
 # Compute the distance
@@ -30,6 +30,6 @@ turtle.penup()                                  #Avoid drawing another line
 #Show the distance between the points
 turtle.goto((x1 + x2)/2, (y1 + y2)/2)           #Algorithm for the line center and coordinates 
 turtle.pendown()                                #Put pen for label
-turtle.write(distance)                          #Shows the Distance of the two points
+turtle.write(distance)                          #Shows the Distance between the two points
 
 turtle.done()                                   #Avoid closing the program after execution
