@@ -1,10 +1,10 @@
 ## Problem 1
 print("Feet to meter converter.")
 
-## line to input length in feet
+## Line to input length in feet
 feet = float(input("Feet: "))
 
-## Convertion formula
+## Conversion formula
 feetToMeter = feet * 0.305
 
 ## Prints
