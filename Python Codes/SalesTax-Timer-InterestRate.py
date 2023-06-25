@@ -26,7 +26,7 @@ print("\n")
 
 
 #Problem 2:
-#Write a program that displays current time in GMT
+#Write a program that displays the current time in GMT
 #(Greenwich Mean Time) in the format
 
 import time                             #import time library
@@ -51,14 +51,14 @@ print("\n")
 #monthly payment and total payment.
 
 #Input for interest rate, years of loan payment, and loan amount
-monthlyInterestRate=((float(input("Annual Interest Rate:"))) / 1200)                    #Input for Annual Interest Rate and directly converts it into monthly rate
+monthlyInterestRate=((float(input("Annual Interest Rate:"))) / 1200)                    #Input for Annual Interest Rate and directly converts it into a monthly rate
 numberOfYears=(float(input("Number of Years:")))                                        #Input for Number of Years to pay
-loanAmount=(float(input("Loan Amount:")))                                               #Input for the ammount of loan
+loanAmount=(float(input("Loan Amount:")))                                               #Input for the amount of loan
 
 #Formulas for the Monthly and Total Payment
 monthlyPayment = ((loanAmount * monthlyInterestRate) / (1 - (1 / (1 + monthlyInterestRate) ** (numberOfYears * 12))))           
 totalPayment = monthlyPayment * numberOfYears * 12
 
 #Show Results
-print("Your Monthly Payment is", round(monthlyPayment, 2))              #Shows Montly Payment
+print("Your Monthly Payment is", round(monthlyPayment, 2))              #Shows Monthly Payment
 print("Your Total Payment is", round(totalPayment, 2))                  #Shows Total Payment
