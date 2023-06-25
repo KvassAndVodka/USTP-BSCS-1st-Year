@@ -3,7 +3,7 @@
 
 #BMI CALCULATOR
 
-#Input weight and height in pounds and inchese
+#Input weight and height in pounds and inches
 weight_in_pounds = float ( input ( "Weight in pounds: " ) )
 height_in_inches = float ( input ( "Height in inches: " ) )
 
