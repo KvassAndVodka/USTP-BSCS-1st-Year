@@ -1,5 +1,5 @@
 //Javier M. Raut
-//CS1D
+//CS1D - LN2 - E1
 // Volume and Area Calculator of a Circle
 
 #include <iostream>
