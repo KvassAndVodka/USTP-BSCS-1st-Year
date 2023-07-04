@@ -1,3 +1,7 @@
+// Javier M. Raut
+// CS1D - LN3 - E5
+// Points in triangle?
+
 #include <iostream>
 using namespace std;
 
