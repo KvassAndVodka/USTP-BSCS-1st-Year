@@ -4,20 +4,26 @@
 
 #3-operation calculator
 
+#Addition Function
 def add(input1, input2):
     return input1 + input2
+
+#Subtraction Function
 def subtract(input1, input2):
     return input1 - input2
+
+#Multiplication Function
 def multiply(input1, input2):
     return input1 * input2
 
-
+#Menu
 print("\n3-Operation Calculator")
 print("Select which operation to perform:")
 print("(1) Addition")
 print("(2) Subtraction")
 print("(3) Multiplication")
 print("(4) Exit\n")
+
 
 while True:
     operation = input("What operation do you want to perform?")
