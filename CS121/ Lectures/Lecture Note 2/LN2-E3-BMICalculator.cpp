@@ -26,4 +26,6 @@ int main(){
 
     // Display
     cout << "BMI is " << BMI;
+
+    return 0;
 }
