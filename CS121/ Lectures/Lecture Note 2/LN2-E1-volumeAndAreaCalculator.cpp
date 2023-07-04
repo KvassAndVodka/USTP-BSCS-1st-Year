@@ -1,3 +1,7 @@
+//Javier M. Raut
+//CS1D
+// Volume and Area Calculator of a Circle
+
 #include <iostream>
 using namespace std;
 
