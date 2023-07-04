@@ -1,3 +1,7 @@
+// Javier M. Raut
+// CS1D - LN3 - E1
+// Quadratic Equation Calculator
+
 #include <iostream>
 #include <cmath>
 using namespace std;
