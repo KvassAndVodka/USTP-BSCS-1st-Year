@@ -2,7 +2,6 @@
 // CS1D - LN5 - E3
 // Apartment Rent Calculator
 
-
 #include <iostream>
 
 using namespace std;
